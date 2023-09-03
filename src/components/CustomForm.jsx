@@ -8,7 +8,7 @@ const CustomForm = ({addTask}) => {
         e.preventDefault();
         addTask({
             name: task,
-            check: false,
+            checked: false,
             id: Date.now()
         });
         setTask("");

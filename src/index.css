@@ -2,9 +2,6 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -38,7 +35,7 @@ h1 {
   background-color: rebeccapurple;
   width: 24px;
   height: 24px;
-  border-radius: 8px;
+  border-radius: 5px;
   border: 1px solid transparent;
   font-size: 1em;
   font-weight: 500;
@@ -53,5 +50,31 @@ h1 {
 .button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
-
+.input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid lightgray;
+  margin-right: 10px;
+}
+.task__group {
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.task__item {
+  box-sizing: border-box;
+  border: 2px solid lightgray;
+  max-width: 222px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  text-align: left;
+  padding: 5px;
+}
+.task__list {
+  margin-left: 0;
+  padding-left: 0;
+}
